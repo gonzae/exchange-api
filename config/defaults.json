@@ -1,0 +1,20 @@
+{
+  "baseCurrency": "SEK",
+  "environment": "development",
+  "fixer": {
+    "accessKey": "sample-key-please-replace",
+    "api": "http://data.fixer.io/api",
+    "isFreePlan" : true
+  },
+  "jwt": {
+    "secret": "non-secret-key"
+  },
+  "port": 3001,
+  "ratelimiter": {
+    "interval": 60,
+    "max": 30
+  },
+  "restcountries": {
+    "api": "https://restcountries.eu/rest/v2"
+  }
+}
